@@ -1,0 +1,57 @@
+body{
+	font-family: cursive;
+  -webkit-font-smoothing: antialiased;
+}
+#app{
+	width: 800px;
+	margin: 20px auto;
+	text-align: center;
+}
+form{
+	width: 600px;
+	margin: 3rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+input{
+	width: inherit;
+	font-size: 30px;
+	text-align: center;
+}
+button{
+	cursor: pointer;
+	padding: 10px;
+	font-size: 30px;
+	text-transform: lowercase;
+	text-align: center;
+	background-color: teal;
+	color: white;
+}
+span{
+	margin: 20px 5px; 
+}
+.preview{
+	width: max-content;
+	margin: 20px auto;
+}
+label{
+	font-size: 30px;
+	display: block;
+}
+.tiles-container{
+	max-width: 700px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+li{
+	display: inline-block;
+	border: 1px solid teal;
+	margin: 10px 10px;
+	padding: 10px;
+}
+li > span{
+	font-size: 30px;
+}

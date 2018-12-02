@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scrabble Score Generator</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+</head>
+<body>
+	<div id="app">
+		<h2>Scrabble Score Generator</h2>
+		<form method="post" onsubmit="generateScore(event)">
+			<input type="text" name="word" oninput="bind(event)" placeholder="Type your word" required>
+			<button type="submit" class="btn btn-primary">Calculate</button>
+		</form>
+		<div class="preview">
+			<div class="tiles-container">
+				<ul class="tiles"></ul>
+			</div>
+		</div>
+			<label>Word Played:<span class="word"></span></label>
+			<label>Score:<span class="score"></span></label>
+	</div>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
